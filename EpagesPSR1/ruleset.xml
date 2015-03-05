@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="PSR1">
- <description>The PSR1 coding standard.</description>
+<ruleset name="EpagesPSR1">
+ <description>The EpagesPSR1 coding standard.</description>
 
  <!-- 2. Files -->
 

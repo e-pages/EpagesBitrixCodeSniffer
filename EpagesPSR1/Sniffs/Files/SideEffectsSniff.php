@@ -1,6 +1,6 @@
 <?php
 /**
- * PSR1_Sniffs_Files_SideEffectsSniff.
+ * EpagesPSR1_Sniffs_Files_SideEffectsSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * PSR1_Sniffs_Files_SideEffectsSniff.
+ * EpagesPSR1_Sniffs_Files_SideEffectsSniff.
  *
  * Ensures a file declare new symbols and causes no other side effects, or executes
  * logic with side effects, but not both.
@@ -26,7 +26,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class PSR1_Sniffs_Files_SideEffectsSniff implements PHP_CodeSniffer_Sniff
+class EpagesPSR1_Sniffs_Files_SideEffectsSniff implements PHP_CodeSniffer_Sniff
 {
 
 
