@@ -6,9 +6,9 @@
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
@@ -20,9 +20,9 @@
  * @category  PHP
  * @package   PHP_CodeSniffer
  * @author    Piotr Karas <office@mediaself.pl>
- * @author    Greg Sherwood <gsherwood@squiz.net>
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
  * @copyright 2010-2014 mediaSELF Sp. z o.o.
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  * @see       http://en.wikipedia.org/wiki/Byte_order_mark

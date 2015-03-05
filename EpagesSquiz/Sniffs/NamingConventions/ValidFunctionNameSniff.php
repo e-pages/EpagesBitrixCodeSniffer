@@ -1,15 +1,15 @@
 <?php
 /**
- * Squiz_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * EpagesSquiz_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * PHP version 5
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
+ * @author    Marc McIntyre <mmcintyre@EpagesSquiz.net>
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
@@ -18,21 +18,21 @@ if (class_exists('PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff', true) =
 }
 
 /**
- * Squiz_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * EpagesSquiz_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * Ensures method names are correct depending on whether they are public
  * or private, and that functions are named correctly.
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
+ * @author    Marc McIntyre <mmcintyre@EpagesSquiz.net>
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Squiz_Sniffs_NamingConventions_ValidFunctionNameSniff extends PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff
+class EpagesSquiz_Sniffs_NamingConventions_ValidFunctionNameSniff extends PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff
 {
 
 

@@ -8,7 +8,7 @@
  * @package   PHP_CodeSniffer
  * @author    Florian Grandel <jerico.dev@gmail.com>
  * @copyright 2009-2014 Florian Grandel
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
@@ -21,7 +21,7 @@
  * @package   PHP_CodeSniffer
  * @author    Florian Grandel <jerico.dev@gmail.com>
  * @copyright 2009-2014 Florian Grandel
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */

@@ -6,9 +6,9 @@
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
  * @author    Manuel Pichler <mapi@manuel-pichler.de>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD License
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
@@ -25,7 +25,7 @@
  * @category  PHP
  * @package   PHP_CodeSniffer
  * @author    Manuel Pichler <mapi@manuel-pichler.de>
- * @author    Greg Sherwood <gsherwood@squiz.net>
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
  * @copyright 2007-2014 Manuel Pichler. All rights reserved.
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD License
  * @version   Release: 2.1.0

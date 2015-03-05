@@ -1,33 +1,33 @@
 <?php
 /**
- * Squiz_Sniffs_Functions_FunctionDuplicateArgumentSpacingSniff.
+ * EpagesSquiz_Sniffs_Functions_FunctionDuplicateArgumentSpacingSniff.
  *
  * PHP version 5
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
+ * @author    Marc McIntyre <mmcintyre@EpagesSquiz.net>
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
 /**
- * Squiz_Sniffs_Functions_FunctionDuplicateArgumentSpacingSniff.
+ * EpagesSquiz_Sniffs_Functions_FunctionDuplicateArgumentSpacingSniff.
  *
  * Checks that duplicate arguments are not used in function declarations.
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
+ * @author    Marc McIntyre <mmcintyre@EpagesSquiz.net>
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Squiz_Sniffs_Functions_FunctionDuplicateArgumentSniff implements PHP_CodeSniffer_Sniff
+class EpagesSquiz_Sniffs_Functions_FunctionDuplicateArgumentSniff implements PHP_CodeSniffer_Sniff
 {
 
 

@@ -28,7 +28,7 @@
  <!-- checked in Classes/ClassDeclarationSniff -->
 
  <!-- Class names MUST be declared in StudlyCaps. -->
- <rule ref="Squiz.Classes.ValidClassName"/>
+ <rule ref="EpagesSquiz.Classes.ValidClassName"/>
 
  <!-- 4. Class Constants, Properties, and Methods -->
 

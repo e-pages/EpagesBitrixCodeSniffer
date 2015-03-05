@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Squiz">
- <description>The Squiz coding standard.</description>
+<ruleset name="EpagesSquiz">
+ <description>The EpagesSquiz coding standard.</description>
 
  <!-- Include some specific sniffs -->
  <rule ref="EpagesGeneric.CodeAnalysis.EmptyStatement"/>

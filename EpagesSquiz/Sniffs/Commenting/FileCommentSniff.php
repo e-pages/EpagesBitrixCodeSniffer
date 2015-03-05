@@ -6,10 +6,10 @@
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
+ * @author    Marc McIntyre <mmcintyre@EpagesSquiz.net>
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
@@ -30,15 +30,15 @@
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
+ * @author    Greg Sherwood <gsherwood@EpagesSquiz.net>
+ * @author    Marc McIntyre <mmcintyre@EpagesSquiz.net>
+ * @copyright 2006-2014 EpagesSquiz Pty Ltd (ABN 77 084 670 600)
+ * @license   https://github.com/EpagesSquizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-class Squiz_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff
+class EpagesSquiz_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**
@@ -137,17 +137,17 @@ class Squiz_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff
             }
 
             if ($name === '@author') {
-                if ($tokens[$string]['content'] !== 'Squiz Pty Ltd <products@squiz.net>') {
-                    $error = 'Expected "Squiz Pty Ltd <products@squiz.net>" for author tag';
+                if ($tokens[$string]['content'] !== 'EpagesSquiz Pty Ltd <products@EpagesSquiz.net>') {
+                    $error = 'Expected "EpagesSquiz Pty Ltd <products@EpagesSquiz.net>" for author tag';
                     $fix   = $phpcsFile->addFixableError($error, $tag, 'IncorrectAuthor');
                     if ($fix === true) {
-                        $expected = 'Squiz Pty Ltd <products@squiz.net>';
+                        $expected = 'EpagesSquiz Pty Ltd <products@EpagesSquiz.net>';
                         $phpcsFile->fixer->replaceToken($string, $expected);
                     }
                 }
             } else if ($name === '@copyright') {
-                if (preg_match('/^([0-9]{4})(-[0-9]{4})? (Squiz Pty Ltd \(ABN 77 084 670 600\))$/', $tokens[$string]['content']) === 0) {
-                    $error = 'Expected "xxxx-xxxx Squiz Pty Ltd (ABN 77 084 670 600)" for copyright declaration';
+                if (preg_match('/^([0-9]{4})(-[0-9]{4})? (EpagesSquiz Pty Ltd \(ABN 77 084 670 600\))$/', $tokens[$string]['content']) === 0) {
+                    $error = 'Expected "xxxx-xxxx EpagesSquiz Pty Ltd (ABN 77 084 670 600)" for copyright declaration';
                     $fix   = $phpcsFile->addFixableError($error, $tag, 'IncorrectCopyright');
                     if ($fix === true) {
                         $matches = array();
@@ -156,7 +156,7 @@ class Squiz_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff
                             $matches[1] = date('Y');
                         }
 
-                        $expected = $matches[1].' Squiz Pty Ltd (ABN 77 084 670 600)';
+                        $expected = $matches[1].' EpagesSquiz Pty Ltd (ABN 77 084 670 600)';
                         $phpcsFile->fixer->replaceToken($string, $expected);
                     }
                 }
