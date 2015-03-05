@@ -1,6 +1,6 @@
 <?php
 /**
- * EpagesEpagesGeneric_Sniffs_Files_EndFileNewlineSniff.
+ * EpagesGeneric_Sniffs_Files_EndFileNewlineSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * EpagesEpagesGeneric_Sniffs_Files_EndFileNewlineSniff.
+ * EpagesGeneric_Sniffs_Files_EndFileNewlineSniff.
  *
  * Ensures the file ends with a newline character.
  *

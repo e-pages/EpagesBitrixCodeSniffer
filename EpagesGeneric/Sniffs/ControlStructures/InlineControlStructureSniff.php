@@ -1,6 +1,6 @@
 <?php
 /**
- * EpagesEpagesGeneric_Sniffs_ControlStructures_InlineControlStructureSniff.
+ * EpagesGeneric_Sniffs_ControlStructures_InlineControlStructureSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * EpagesEpagesGeneric_Sniffs_ControlStructures_InlineControlStructureSniff.
+ * EpagesGeneric_Sniffs_ControlStructures_InlineControlStructureSniff.
  *
  * Verifies that inline control statements are not present.
  *
@@ -27,7 +27,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesEpagesGeneric_Sniffs_ControlStructures_InlineControlStructureSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_ControlStructures_InlineControlStructureSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

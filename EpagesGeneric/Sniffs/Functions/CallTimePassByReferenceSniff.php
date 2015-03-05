@@ -1,6 +1,6 @@
 <?php
 /**
- * EpagesEpagesGeneric_Sniffs_Functions_CallTimePassByReferenceSniff.
+ * EpagesGeneric_Sniffs_Functions_CallTimePassByReferenceSniff.
  *
  * PHP version 5
  *

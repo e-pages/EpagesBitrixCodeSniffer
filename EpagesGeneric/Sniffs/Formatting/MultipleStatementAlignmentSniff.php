@@ -1,6 +1,6 @@
 <?php
 /**
- * EpagesEpagesGeneric_Sniffs_Formatting_MultipleStatementAlignmentSniff.
+ * EpagesGeneric_Sniffs_Formatting_MultipleStatementAlignmentSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * EpagesEpagesGeneric_Sniffs_Formatting_MultipleStatementAlignmentSniff.
+ * EpagesGeneric_Sniffs_Formatting_MultipleStatementAlignmentSniff.
  *
  * Checks alignment of assignments. If there are multiple adjacent assignments,
  * it will check that the equals signs of each assignment are aligned. It will
@@ -27,7 +27,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesEpagesGeneric_Sniffs_Formatting_MultipleStatementAlignmentSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_Formatting_MultipleStatementAlignmentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

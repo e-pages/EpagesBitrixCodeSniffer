@@ -1,6 +1,6 @@
 <?php
 /**
- * EpagesEpagesGeneric_Sniffs_Formatting_DisallowMultipleStatementsSniff.
+ * EpagesGeneric_Sniffs_Formatting_DisallowMultipleStatementsSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * EpagesEpagesGeneric_Sniffs_Formatting_DisallowMultipleStatementsSniff.
+ * EpagesGeneric_Sniffs_Formatting_DisallowMultipleStatementsSniff.
  *
  * Ensures each statement is on a line by itself.
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesEpagesGeneric_Sniffs_Formatting_DisallowMultipleStatementsSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_Formatting_DisallowMultipleStatementsSniff implements PHP_CodeSniffer_Sniff
 {
 
 

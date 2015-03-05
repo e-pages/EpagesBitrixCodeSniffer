@@ -1,6 +1,6 @@
 <?php
 /**
- * EpagesEpagesGeneric_Sniffs_Files_ByteOrderMarkSniff.
+ * EpagesGeneric_Sniffs_Files_ByteOrderMarkSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * EpagesEpagesGeneric_Sniffs_Files_ByteOrderMarkSniff.
+ * EpagesGeneric_Sniffs_Files_ByteOrderMarkSniff.
  *
  * A simple sniff for detecting BOMs that may corrupt application work.
  *
@@ -27,7 +27,7 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  * @see       http://en.wikipedia.org/wiki/Byte_order_mark
  */
-class EpagesEpagesGeneric_Sniffs_Files_ByteOrderMarkSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_Files_ByteOrderMarkSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**
