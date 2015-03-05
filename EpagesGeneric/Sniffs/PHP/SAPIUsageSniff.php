@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_PHP_SAPIUsageSniff.
+ * EpagesGeneric_Sniffs_PHP_SAPIUsageSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Generic_Sniffs_PHP_SAPIUsageSniff.
+ * EpagesGeneric_Sniffs_PHP_SAPIUsageSniff.
  *
  * Ensures the PHP_SAPI constant is used instead of php_sapi_name().
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_PHP_SAPIUsageSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_PHP_SAPIUsageSniff implements PHP_CodeSniffer_Sniff
 {
 
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Files_EndFileNoNewlineSniff.
+ * EpagesEpagesGeneric_Sniffs_Files_EndFileNoNewlineSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Generic_Sniffs_Files_EndFileNoNewlineSniff.
+ * EpagesEpagesGeneric_Sniffs_Files_EndFileNoNewlineSniff.
  *
  * Ensures the file does not end with a newline character.
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Files_EndFileNoNewlineSniff implements PHP_CodeSniffer_Sniff
+class EpagesEpagesGeneric_Sniffs_Files_EndFileNoNewlineSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

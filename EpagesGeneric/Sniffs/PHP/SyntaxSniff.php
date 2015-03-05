@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_PHP_SyntaxSniff.
+ * EpagesGeneric_Sniffs_PHP_SyntaxSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Generic_Sniffs_PHP_SyntaxSniff.
+ * EpagesGeneric_Sniffs_PHP_SyntaxSniff.
  *
  * Ensures PHP believes the syntax is clean.
  *
@@ -27,7 +27,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_PHP_SyntaxSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_PHP_SyntaxSniff implements PHP_CodeSniffer_Sniff
 {
 
 

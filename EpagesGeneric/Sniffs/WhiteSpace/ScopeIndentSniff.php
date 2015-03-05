@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Whitespace_ScopeIndentSniff.
+ * EpagesGeneric_Sniffs_Whitespace_ScopeIndentSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Generic_Sniffs_Whitespace_ScopeIndentSniff.
+ * EpagesGeneric_Sniffs_Whitespace_ScopeIndentSniff.
  *
  * Checks that control structures are structured correctly, and their content
  * is indented correctly. This sniff will throw errors if tabs are used
@@ -29,7 +29,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_WhiteSpace_ScopeIndentSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_WhiteSpace_ScopeIndentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

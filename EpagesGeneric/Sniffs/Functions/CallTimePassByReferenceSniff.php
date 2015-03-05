@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Functions_CallTimePassByReferenceSniff.
+ * EpagesEpagesGeneric_Sniffs_Functions_CallTimePassByReferenceSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Generic_Sniffs_Functions_CallTimePassByReferenceSniff.
+ * EpagesGeneric_Sniffs_Functions_CallTimePassByReferenceSniff.
  *
  * Ensures that variables are not passed by reference when calling a function.
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Functions_CallTimePassByReferenceSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_Functions_CallTimePassByReferenceSniff implements PHP_CodeSniffer_Sniff
 {
 
 

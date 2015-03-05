@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_PHP_NoSilencedErrorsSniff
+ * EpagesGeneric_Sniffs_PHP_NoSilencedErrorsSniff
  *
  * PHP version 5
  *
@@ -12,7 +12,7 @@
  */
 
 /**
- * Generic_Sniffs_PHP_NoSilencedErrorsSniff.
+ * EpagesGeneric_Sniffs_PHP_NoSilencedErrorsSniff.
  *
  * Throws an error or warning when any code prefixed with an asperand is encountered.
  *
@@ -30,7 +30,7 @@
  * @version  Release: 2.1.0
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_PHP_NoSilencedErrorsSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_PHP_NoSilencedErrorsSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Files_OneInterfacePerFileSniff.
+ * EpagesEpagesGeneric_Sniffs_Files_OneInterfacePerFileSniff.
  *
  * PHP version 5
  *
@@ -23,7 +23,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Files_OneInterfacePerFileSniff implements PHP_CodeSniffer_Sniff
+class EpagesEpagesGeneric_Sniffs_Files_OneInterfacePerFileSniff implements PHP_CodeSniffer_Sniff
 {
 
 

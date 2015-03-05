@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_PHP_ForbiddenFunctionsSniff.
+ * EpagesGeneric_Sniffs_PHP_ForbiddenFunctionsSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Generic_Sniffs_PHP_ForbiddenFunctionsSniff.
+ * EpagesGeneric_Sniffs_PHP_ForbiddenFunctionsSniff.
  *
  * Discourages the use of alias functions that are kept in PHP for compatibility
  * with older versions. Can be used to forbid the use of any function.
@@ -28,7 +28,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_PHP_ForbiddenFunctionsSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_PHP_ForbiddenFunctionsSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

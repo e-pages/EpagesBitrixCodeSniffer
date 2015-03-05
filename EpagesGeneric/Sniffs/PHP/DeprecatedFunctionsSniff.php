@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_PHP_DeprecatedFunctionsSniff.
+ * EpagesGeneric_Sniffs_PHP_DeprecatedFunctionsSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Generic_Sniffs_PHP_DeprecatedFunctionsSniff.
+ * EpagesGeneric_Sniffs_PHP_DeprecatedFunctionsSniff.
  *
  * Discourages the use of deprecated functions that are kept in PHP for
  * compatibility with older versions.
@@ -29,7 +29,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_PHP_DeprecatedFunctionsSniff extends Generic_Sniffs_PHP_ForbiddenFunctionsSniff
+class EpagesGeneric_Sniffs_PHP_DeprecatedFunctionsSniff extends EpagesGeneric_Sniffs_PHP_ForbiddenFunctionsSniff
 {
 
     /**

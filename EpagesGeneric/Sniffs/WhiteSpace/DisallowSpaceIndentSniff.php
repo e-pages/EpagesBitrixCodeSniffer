@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_WhiteSpace_DisallowSpaceIndentSniff.
+ * EpagesGeneric_Sniffs_WhiteSpace_DisallowSpaceIndentSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Generic_Sniffs_WhiteSpace_DisallowSpaceIndentSniff.
+ * EpagesGeneric_Sniffs_WhiteSpace_DisallowSpaceIndentSniff.
  *
  * Throws errors if spaces are used for indentation.
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_WhiteSpace_DisallowSpaceIndentSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_WhiteSpace_DisallowSpaceIndentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

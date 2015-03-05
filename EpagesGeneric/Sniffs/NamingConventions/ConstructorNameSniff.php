@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_NamingConventions_ConstructorNameSniff.
+ * EpagesGeneric_Sniffs_NamingConventions_ConstructorNameSniff.
  *
  * PHP version 5
  *
@@ -19,7 +19,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
 }
 
 /**
- * Generic_Sniffs_NamingConventions_ConstructorNameSniff.
+ * EpagesGeneric_Sniffs_NamingConventions_ConstructorNameSniff.
  *
  * Favor PHP 5 constructor syntax, which uses "function __construct()".
  * Avoid PHP 4 constructor syntax, which uses "function ClassName()".
@@ -31,7 +31,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
  * @version  Release: 2.1.0
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_NamingConventions_ConstructorNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
+class EpagesGeneric_Sniffs_NamingConventions_ConstructorNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
 {
 
     /**

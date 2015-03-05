@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Debug_CSSLintSniff.
+ * EpagesEpagesGeneric_Sniffs_Debug_CSSLintSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Generic_Sniffs_Debug_CSSLintSniff.
+ * EpagesEpagesGeneric_Sniffs_Debug_CSSLintSniff.
  *
  * Runs csslint on the file.
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Debug_CSSLintSniff implements PHP_CodeSniffer_Sniff
+class EpagesEpagesGeneric_Sniffs_Debug_CSSLintSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

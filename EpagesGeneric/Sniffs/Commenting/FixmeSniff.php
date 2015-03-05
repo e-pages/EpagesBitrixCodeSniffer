@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Commenting_FixmeSniff.
+ * EpagesEpagesGeneric_Sniffs_Commenting_FixmeSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Generic_Sniffs_Commenting_FixmeSniff.
+ * EpagesEpagesGeneric_Sniffs_Commenting_FixmeSniff.
  *
  * Warns about FIXME comments.
  *
@@ -27,7 +27,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Commenting_FixmeSniff implements PHP_CodeSniffer_Sniff
+class EpagesEpagesGeneric_Sniffs_Commenting_FixmeSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

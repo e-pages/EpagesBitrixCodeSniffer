@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Commenting_TodoSniff.
+ * EpagesEpagesGeneric_Sniffs_Commenting_TodoSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Generic_Sniffs_Commenting_TodoSniff.
+ * EpagesEpagesGeneric_Sniffs_Commenting_TodoSniff.
  *
  * Warns about TODO comments.
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Commenting_TodoSniff implements PHP_CodeSniffer_Sniff
+class EpagesEpagesGeneric_Sniffs_Commenting_TodoSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

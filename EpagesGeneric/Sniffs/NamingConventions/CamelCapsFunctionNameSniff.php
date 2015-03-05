@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff.
+ * EpagesGeneric_Sniffs_NamingConventions_CamelCapsFunctionNameSniff.
  *
  * PHP version 5
  *
@@ -18,7 +18,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
 }
 
 /**
- * Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff.
+ * EpagesGeneric_Sniffs_NamingConventions_CamelCapsFunctionNameSniff.
  *
  * Ensures method names are correct depending on whether they are public
  * or private, and that functions are named correctly.
@@ -32,7 +32,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
+class EpagesGeneric_Sniffs_NamingConventions_CamelCapsFunctionNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
 {
 
     /**
@@ -95,7 +95,7 @@ class Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff extends PHP_Co
 
 
     /**
-     * Constructs a Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff.
+     * Constructs a EpagesGeneric_Sniffs_NamingConventions_CamelCapsFunctionNameSniff.
      */
     public function __construct()
     {

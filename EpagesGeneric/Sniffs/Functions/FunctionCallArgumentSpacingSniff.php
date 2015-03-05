@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Functions_FunctionCallArgumentSpacingSniff.
+ * EpagesGeneric_Sniffs_Functions_FunctionCallArgumentSpacingSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Generic_Sniffs_Functions_FunctionCallArgumentSpacingSniff.
+ * EpagesGeneric_Sniffs_Functions_FunctionCallArgumentSpacingSniff.
  *
  * Checks that calls to methods and functions are spaced correctly.
  *
@@ -27,7 +27,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Functions_FunctionCallArgumentSpacingSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_Functions_FunctionCallArgumentSpacingSniff implements PHP_CodeSniffer_Sniff
 {
 
 

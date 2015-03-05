@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_VersionControl_SubversionPropertiesSniff.
+ * EpagesGeneric_Sniffs_VersionControl_SubversionPropertiesSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Generic_Sniffs_VersionControl_SubversionPropertiesSniff.
+ * EpagesGeneric_Sniffs_VersionControl_SubversionPropertiesSniff.
  *
  * Tests that the correct Subversion properties are set.
  *
@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_VersionControl_SubversionPropertiesSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_VersionControl_SubversionPropertiesSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

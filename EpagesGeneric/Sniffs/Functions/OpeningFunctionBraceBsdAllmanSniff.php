@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic_Sniffs_Methods_OpeningMethodBraceBsdAllmanSniff.
+ * EpagesGeneric_Sniffs_Methods_OpeningMethodBraceBsdAllmanSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Generic_Sniffs_Functions_OpeningFunctionBraceBsdAllmanSniff.
+ * EpagesGeneric_Sniffs_Functions_OpeningFunctionBraceBsdAllmanSniff.
  *
  * Checks that the opening brace of a function is on the line after the
  * function declaration.
@@ -28,7 +28,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Generic_Sniffs_Functions_OpeningFunctionBraceBsdAllmanSniff implements PHP_CodeSniffer_Sniff
+class EpagesGeneric_Sniffs_Functions_OpeningFunctionBraceBsdAllmanSniff implements PHP_CodeSniffer_Sniff
 {
 
 
