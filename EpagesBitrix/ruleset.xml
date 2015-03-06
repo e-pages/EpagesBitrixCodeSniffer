@@ -22,7 +22,7 @@
  <!-- checked in Files/EndFileNewlineSniff -->
 
  <!-- The closing ?> tag MUST be omitted from files containing only PHP. -->
- <rule ref="Zend.Files.ClosingTag"/>
+ <rule ref="EpagesZend.Files.ClosingTag"/>
 
  <!-- 2.3 Lines -->
 

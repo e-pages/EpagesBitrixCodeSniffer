@@ -1,12 +1,12 @@
 <?php
 /**
- * Zend_Sniffs_Debug_CodeAnalyzerSniff.
+ * EpagesZend_Sniffs_Debug_CodeAnalyzerSniff.
  *
  * PHP version 5
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Holger Kral <holger.kral@zend.com>
+ * @author    Holger Kral <holger.kral@EpagesZend.com>
  * @author    Greg Sherwood <gsherwood@squiz.net>
  * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
  * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
@@ -14,20 +14,20 @@
  */
 
 /**
- * Zend_Sniffs_Debug_CodeAnalyzerSniff.
+ * EpagesZend_Sniffs_Debug_CodeAnalyzerSniff.
  *
- * Runs the Zend Code Analyzer (from Zend Studio) on the file.
+ * Runs the EpagesZend Code Analyzer (from EpagesZend Studio) on the file.
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Holger Kral <holger.kral@zend.com>
+ * @author    Holger Kral <holger.kral@EpagesZend.com>
  * @author    Greg Sherwood <gsherwood@squiz.net>
  * @copyright 2006-2014 Squiz Pty Ltd (ABN 77 084 670 600)
  * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Zend_Sniffs_Debug_CodeAnalyzerSniff implements PHP_CodeSniffer_Sniff
+class EpagesZend_Sniffs_Debug_CodeAnalyzerSniff implements PHP_CodeSniffer_Sniff
 {
 
 
@@ -55,7 +55,7 @@ class Zend_Sniffs_Debug_CodeAnalyzerSniff implements PHP_CodeSniffer_Sniff
     public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
         $fileName     = $phpcsFile->getFilename();
-        $analyzerPath = PHP_CodeSniffer::getConfigData('zend_ca_path');
+        $analyzerPath = PHP_CodeSniffer::getConfigData('EpagesZend_ca_path');
         if (is_null($analyzerPath) === true) {
             return;
         }
@@ -79,14 +79,14 @@ class Zend_Sniffs_Debug_CodeAnalyzerSniff implements PHP_CodeSniffer_Sniff
                 $msg = join('\n', $output);
             }
 
-            throw new PHP_CodeSniffer_Exception("Failed invoking ZendCodeAnalyzer, exitcode was [$exitCode], retval was [$retval], output was [$msg]");
+            throw new PHP_CodeSniffer_Exception("Failed invoking EpagesZendCodeAnalyzer, exitcode was [$exitCode], retval was [$retval], output was [$msg]");
         }
 
         if (is_array($output) === true) {
             foreach ($output as $finding) {
                 // The first two lines of analyzer output contain
                 // something like this:
-                // > Zend Code Analyzer 1.2.2
+                // > EpagesZend Code Analyzer 1.2.2
                 // > Analyzing <filename>...
                 // So skip these...
                 $res = preg_match("/^.+\(line ([0-9]+)\):(.+)$/", $finding, $regs);

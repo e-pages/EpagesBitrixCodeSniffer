@@ -1,7 +1,7 @@
-<documentation title="Zend Code Analyzer">
+<documentation title="EpagesZend Code Analyzer">
     <standard>
     <![CDATA[
-    PHP Code should pass the zend code analyzer.
+    PHP Code should pass the EpagesZend code analyzer.
     ]]>
     </standard>
     <code_comparison>

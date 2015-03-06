@@ -30,7 +30,7 @@
  <rule ref="EpagesGeneric.PHP.LowerCaseKeyword"/>
  <rule ref="EpagesGeneric.Strings.UnnecessaryStringConcat"/>
  <rule ref="PSR2.Files.EndFileNewline"/>
- <rule ref="Zend.Files.ClosingTag"/>
+ <rule ref="EpagesZend.Files.ClosingTag"/>
 
  <!-- Only one argument per line in multi-line function calls -->
  <rule ref="PEAR.Functions.FunctionCallSignature">
