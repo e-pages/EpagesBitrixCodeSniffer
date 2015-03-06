@@ -25,7 +25,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class PSR1_Sniffs_Classes_ClassDeclarationSniff implements PHP_CodeSniffer_Sniff
+class EpagesPSR1_Sniffs_Classes_ClassDeclarationSniff implements PHP_CodeSniffer_Sniff
 {
 
 

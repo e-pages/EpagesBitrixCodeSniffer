@@ -1,6 +1,6 @@
 <?php
 /**
- * PSR1_Sniffs_Methods_CamelCapsMethodNameSniff.
+ * EpagesPSR1_Sniffs_Methods_CamelCapsMethodNameSniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@ if (class_exists('Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff', 
 }
 
 /**
- * PSR1_Sniffs_Methods_CamelCapsMethodNameSniff.
+ * EpagesPSR1_Sniffs_Methods_CamelCapsMethodNameSniff.
  *
  * Ensures method names are defined using camel case.
  *
@@ -29,12 +29,12 @@ if (class_exists('Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff', 
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class PSR1_Sniffs_Methods_CamelCapsMethodNameSniff extends Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff
+class EpagesPSR1_Sniffs_Methods_CamelCapsMethodNameSniff extends Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff
 {
 
 
     /**
-     * Constructs a PSR1_Sniffs_Methods_CamelCapsMethodNameSniff.
+     * Constructs a EpagesPSR1_Sniffs_Methods_CamelCapsMethodNameSniff.
      */
     public function __construct()
     {
