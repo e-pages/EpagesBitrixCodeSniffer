@@ -7,20 +7,20 @@
  <rule ref="PEAR"/>
 
  <!-- Include some sniffs from other standards that don't conflict with PEAR -->
- <rule ref="Squiz.Arrays.ArrayBracketSpacing" />
- <rule ref="Squiz.Arrays.ArrayDeclaration" />
- <rule ref="Squiz.Commenting.ClosingDeclarationComment" />
- <rule ref="Squiz.Commenting.BlockComment" />
- <rule ref="Squiz.Commenting.DocCommentAlignment" />
- <rule ref="Squiz.Commenting.EmptyCatchComment" />
- <rule ref="Squiz.Commenting.InlineComment" />
- <rule ref="Squiz.Commenting.LongConditionClosingComment" />
- <rule ref="Squiz.Commenting.PostStatementComment" />
- <rule ref="Squiz.Operators.ComparisonOperatorUsage" />
- <rule ref="Squiz.WhiteSpace.ControlStructureSpacing" />
- <rule ref="Squiz.WhiteSpace.FunctionClosingBraceSpace" />
- <rule ref="Squiz.WhiteSpace.FunctionSpacing" />
- <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
+ <rule ref="EpagesSquiz.Arrays.ArrayBracketSpacing" />
+ <rule ref="EpagesSquiz.Arrays.ArrayDeclaration" />
+ <rule ref="EpagesSquiz.Commenting.ClosingDeclarationComment" />
+ <rule ref="EpagesSquiz.Commenting.BlockComment" />
+ <rule ref="EpagesSquiz.Commenting.DocCommentAlignment" />
+ <rule ref="EpagesSquiz.Commenting.EmptyCatchComment" />
+ <rule ref="EpagesSquiz.Commenting.InlineComment" />
+ <rule ref="EpagesSquiz.Commenting.LongConditionClosingComment" />
+ <rule ref="EpagesSquiz.Commenting.PostStatementComment" />
+ <rule ref="EpagesSquiz.Operators.ComparisonOperatorUsage" />
+ <rule ref="EpagesSquiz.WhiteSpace.ControlStructureSpacing" />
+ <rule ref="EpagesSquiz.WhiteSpace.FunctionClosingBraceSpace" />
+ <rule ref="EpagesSquiz.WhiteSpace.FunctionSpacing" />
+ <rule ref="EpagesSquiz.WhiteSpace.SuperfluousWhitespace" />
  <rule ref="EpagesGeneric.Commenting.Todo"/>
  <rule ref="EpagesGeneric.ControlStructures.InlineControlStructure"/>
  <rule ref="EpagesGeneric.Formatting.DisallowMultipleStatements"/>
