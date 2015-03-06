@@ -1,0 +1,4 @@
+AbstractPatternSniff.php
+AbstractScopeSniff.php
+AbstractVariableSniff.php
+IncorrectPatternException.php
