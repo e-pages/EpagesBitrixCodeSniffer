@@ -234,7 +234,7 @@ class EpagesSquiz_Sniffs_Commenting_BlockCommentSniff implements PHP_CodeSniffer
                 continue;
             }
 
-            if ($leadingSpace < $starColumn) {
+            /*if ($leadingSpace < $starColumn) {
                 $expected  = $starColumn;
                 $expected .= ($starColumn === 1) ? ' space' : ' spaces';
                 $data      = array(
@@ -248,7 +248,7 @@ class EpagesSquiz_Sniffs_Commenting_BlockCommentSniff implements PHP_CodeSniffer
                     $newContent = str_repeat(' ', $starColumn).ltrim($tokens[$line]['content']);
                     $phpcsFile->fixer->replaceToken($line, $newContent);
                 }
-            }
+            }*/
         }//end foreach
 
         // Finally, test the last line is correct.

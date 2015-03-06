@@ -508,7 +508,7 @@ class EpagesGeneric_Sniffs_WhiteSpace_ScopeIndentSniff implements PHP_CodeSniffe
             }
 
             $adjusted = false;
-            if ($checkToken !== null
+            /*if ($checkToken !== null
                 && isset($this->_ignoreIndentationTokens[$tokens[$checkToken]['code']]) === false
                 && (($tokenIndent !== $checkIndent && $exact === true)
                 || ($tokenIndent < $checkIndent && $exact === false))
@@ -564,7 +564,7 @@ class EpagesGeneric_Sniffs_WhiteSpace_ScopeIndentSniff implements PHP_CodeSniffe
                         $adjustments[$checkToken] = ($checkIndent - $tokenIndent);
                     }
                 }//end if
-            }//end if
+            }//end if*/
 
             if ($checkToken !== null) {
                 $i = $checkToken;

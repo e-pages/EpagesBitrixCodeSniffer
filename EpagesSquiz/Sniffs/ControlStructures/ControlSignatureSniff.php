@@ -83,9 +83,14 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
                 $found = strlen($tokens[($stackPtr + 1)]['content']);
             }
         }
-
-        if ($found !== 1) {
-            $error = 'Expected 1 space after %s keyword; %s found';
+//var_dump($tokens[$stackPtr]["type"]);
+        if ($found !== "newline"
+            && $tokens[$stackPtr]["type"] !== "T_IF"
+            && $tokens[$stackPtr]["type"] !== "T_WHILE"
+            && $tokens[$stackPtr]["type"] !== "T_FOREACH"
+            && $tokens[$stackPtr]["type"] !== "T_ELSEIF"
+        ) {
+            $error = 'Expected new line after %s keyword; %s found';
             $data  = array(
                       strtoupper($tokens[$stackPtr]['content']),
                       $found,
@@ -109,8 +114,8 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
             $opener  = $tokens[$stackPtr]['scope_opener'];
             $content = $phpcsFile->getTokensAsString(($closer + 1), ($opener - $closer - 1));
 
-            if ($content !== ' ') {
-                $error = 'Expected 1 space after closing parenthesis; found "%s"';
+            if (substr($content, 0, 1) !== PHP_EOL) {
+                $error = 'Expected end of line after closing parenthesis; found "%s"';
                 $data  = array(str_replace($phpcsFile->eolChar, '\n', $content));
                 $fix   = $phpcsFile->addFixableError($error, $closer, 'SpaceAfterCloseParenthesis', $data);
                 if ($fix === true) {
@@ -209,8 +214,8 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
             }
         }
 
-        if ($found !== 1) {
-            $error = 'Expected 1 space after closing brace; %s found';
+        if ($found !== "newline") {
+            $error = 'Expected new line after closing brace; %s found';
             $data  = array($found);
             $fix   = $phpcsFile->addFixableError($error, $closer, 'SpaceAfterCloseBrace', $data);
             if ($fix === true) {

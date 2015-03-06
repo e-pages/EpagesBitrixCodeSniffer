@@ -126,7 +126,8 @@ class EpagesSquiz_Sniffs_CSS_IndentationSniff implements PHP_CodeSniffer_Sniff
                         $phpcsFile->fixer->replaceToken($i, '');
                     }
                 }
-            } else if ($foundIndent !== $expectedIndent) {
+            /*} else if ($foundIndent !== $expectedIndent) {
+                var_dump($foundIndent);
                 $error = 'Line indented incorrectly; expected %s spaces, found %s';
                 $data  = array(
                           $expectedIndent,
@@ -141,7 +142,7 @@ class EpagesSquiz_Sniffs_CSS_IndentationSniff implements PHP_CodeSniffer_Sniff
                     } else {
                         $phpcsFile->fixer->replaceToken($i, $indent);
                     }
-                }
+                }*/
             }//end if
         }//end for
 

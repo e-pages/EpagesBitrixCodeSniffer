@@ -61,7 +61,6 @@
    <property name="ignoreIndentationTokens" type="array" value="T_COMMENT,T_DOC_COMMENT"/>
   </properties>
  </rule>
- <rule ref="EpagesGeneric.WhiteSpace.DisallowTabIndent"/>
 
  <!-- 2.5 Keywords and True/False/Null -->
 

@@ -114,11 +114,11 @@ class EpagesGeneric_Sniffs_WhiteSpace_DisallowTabIndentSniff implements PHP_Code
                 // Look for tabs so we can report and replace, but don't
                 // record any metrics about them because they aren't
                 // line indent tokens.
-                if (strpos($content, "\t") !== false) {
+                /*if (strpos($content, "\t") !== false) {
                     $tabFound  = true;
                     $error     = 'Spaces must be used for alignment; tabs are not allowed';
                     $errorCode = 'NonIndentTabsUsed';
-                }
+                }*/
             }//end if
 
             if ($tabFound === false) {
