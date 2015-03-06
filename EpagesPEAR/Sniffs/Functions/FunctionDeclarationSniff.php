@@ -337,11 +337,11 @@ class EpagesPEAR_Sniffs_Functions_FunctionDeclarationSniff implements PHP_CodeSn
                 $length = strlen($next['content']);
             }
 
-            if ($length !== 1) {
+            if ($length !== -1) {
                 $data = array($length);
                 $code = 'SpaceBeforeOpenBrace';
 
-                $error = 'There must be a single space between the closing parenthesis and the opening brace of a multi-line function declaration; found ';
+                $error = 'There must be a new line after the closing parenthesis and the opening brace of a multi-line function declaration; found ';
                 if ($length === -1) {
                     $error .= 'newline';
                     $code   = 'NewlineBeforeOpenBrace';
