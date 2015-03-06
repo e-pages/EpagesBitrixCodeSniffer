@@ -12,8 +12,8 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff', true) === false) {
-    throw new PHP_CodeSniffer_Exception('Class Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff not found');
+if (class_exists('EpagesGeneric_Sniffs_NamingConventions_CamelCapsFunctionNameSniff', true) === false) {
+    throw new PHP_CodeSniffer_Exception('Class EpagesGeneric_Sniffs_NamingConventions_CamelCapsFunctionNameSniff not found');
 }
 
 /**
@@ -29,7 +29,7 @@ if (class_exists('Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff', 
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesPSR1_Sniffs_Methods_CamelCapsMethodNameSniff extends Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff
+class EpagesPSR1_Sniffs_Methods_CamelCapsMethodNameSniff extends EpagesGeneric_Sniffs_NamingConventions_CamelCapsFunctionNameSniff
 {
 
 

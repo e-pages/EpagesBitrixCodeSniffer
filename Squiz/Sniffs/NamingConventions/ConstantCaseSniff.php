@@ -12,13 +12,13 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('Generic_Sniffs_PHP_LowerCaseConstantSniff', true) === false) {
-    $error = 'Class Generic_Sniffs_PHP_LowerCaseConstantSniff not found';
+if (class_exists('EpagesGeneric_Sniffs_PHP_LowerCaseConstantSniff', true) === false) {
+    $error = 'Class EpagesGeneric_Sniffs_PHP_LowerCaseConstantSniff not found';
     throw new PHP_CodeSniffer_Exception($error);
 }
 
-if (class_exists('Generic_Sniffs_PHP_UpperCaseConstantSniff', true) === false) {
-    $error = 'Class Generic_Sniffs_PHP_UpperCaseConstantSniff not found';
+if (class_exists('EpagesGeneric_Sniffs_PHP_UpperCaseConstantSniff', true) === false) {
+    $error = 'Class EpagesGeneric_Sniffs_PHP_UpperCaseConstantSniff not found';
     throw new PHP_CodeSniffer_Exception($error);
 }
 
@@ -35,7 +35,7 @@ if (class_exists('Generic_Sniffs_PHP_UpperCaseConstantSniff', true) === false) {
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Squiz_Sniffs_NamingConventions_ConstantCaseSniff extends Generic_Sniffs_PHP_LowerCaseConstantSniff
+class Squiz_Sniffs_NamingConventions_ConstantCaseSniff extends EpagesGeneric_Sniffs_PHP_LowerCaseConstantSniff
 {
 
 
@@ -53,7 +53,7 @@ class Squiz_Sniffs_NamingConventions_ConstantCaseSniff extends Generic_Sniffs_PH
         if ($phpcsFile->tokenizerType === 'JS') {
             parent::process($phpcsFile, $stackPtr);
         } else {
-            $sniff = new Generic_Sniffs_PHP_UpperCaseConstantSniff;
+            $sniff = new EpagesGeneric_Sniffs_PHP_UpperCaseConstantSniff;
             $sniff->process($phpcsFile, $stackPtr);
         }
 

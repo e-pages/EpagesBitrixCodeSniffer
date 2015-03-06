@@ -21,14 +21,14 @@
  <rule ref="Squiz.WhiteSpace.FunctionClosingBraceSpace" />
  <rule ref="Squiz.WhiteSpace.FunctionSpacing" />
  <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
- <rule ref="Generic.Commenting.Todo"/>
- <rule ref="Generic.ControlStructures.InlineControlStructure"/>
- <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
- <rule ref="Generic.Formatting.SpaceAfterCast"/>
- <rule ref="Generic.NamingConventions.ConstructorName"/>
- <rule ref="Generic.PHP.DeprecatedFunctions"/>
- <rule ref="Generic.PHP.LowerCaseKeyword"/>
- <rule ref="Generic.Strings.UnnecessaryStringConcat"/>
+ <rule ref="EpagesGeneric.Commenting.Todo"/>
+ <rule ref="EpagesGeneric.ControlStructures.InlineControlStructure"/>
+ <rule ref="EpagesGeneric.Formatting.DisallowMultipleStatements"/>
+ <rule ref="EpagesGeneric.Formatting.SpaceAfterCast"/>
+ <rule ref="EpagesGeneric.NamingConventions.ConstructorName"/>
+ <rule ref="EpagesGeneric.PHP.DeprecatedFunctions"/>
+ <rule ref="EpagesGeneric.PHP.LowerCaseKeyword"/>
+ <rule ref="EpagesGeneric.Strings.UnnecessaryStringConcat"/>
  <rule ref="PSR2.Files.EndFileNewline"/>
  <rule ref="Zend.Files.ClosingTag"/>
 
@@ -40,7 +40,7 @@
  </rule>
 
  <!-- Have 8 chars padding maximum and always show as errors -->
- <rule ref="Generic.Formatting.MultipleStatementAlignment">
+ <rule ref="EpagesGeneric.Formatting.MultipleStatementAlignment">
   <properties>
    <property name="maxPadding" value="12"/>
    <property name="error" value="true"/>

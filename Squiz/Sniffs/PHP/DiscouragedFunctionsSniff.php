@@ -12,8 +12,8 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('Generic_Sniffs_PHP_ForbiddenFunctionsSniff', true) === false) {
-    throw new PHP_CodeSniffer_Exception('Class Generic_Sniffs_PHP_ForbiddenFunctionsSniff not found');
+if (class_exists('EpagesGeneric_Sniffs_PHP_ForbiddenFunctionsSniff', true) === false) {
+    throw new PHP_CodeSniffer_Exception('Class EpagesGeneric_Sniffs_PHP_ForbiddenFunctionsSniff not found');
 }
 
 /**
@@ -29,7 +29,7 @@ if (class_exists('Generic_Sniffs_PHP_ForbiddenFunctionsSniff', true) === false) 
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Squiz_Sniffs_PHP_DiscouragedFunctionsSniff extends Generic_Sniffs_PHP_ForbiddenFunctionsSniff
+class Squiz_Sniffs_PHP_DiscouragedFunctionsSniff extends EpagesGeneric_Sniffs_PHP_ForbiddenFunctionsSniff
 {
 
     /**

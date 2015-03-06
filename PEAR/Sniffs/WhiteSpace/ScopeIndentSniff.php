@@ -13,8 +13,8 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('Generic_Sniffs_WhiteSpace_ScopeIndentSniff', true) === false) {
-    $error = 'Class Generic_Sniffs_WhiteSpace_ScopeIndentSniff not found';
+if (class_exists('EpagesGeneric_Sniffs_WhiteSpace_ScopeIndentSniff', true) === false) {
+    $error = 'Class EpagesGeneric_Sniffs_WhiteSpace_ScopeIndentSniff not found';
     throw new PHP_CodeSniffer_Exception($error);
 }
 
@@ -33,7 +33,7 @@ if (class_exists('Generic_Sniffs_WhiteSpace_ScopeIndentSniff', true) === false) 
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class PEAR_Sniffs_WhiteSpace_ScopeIndentSniff extends Generic_Sniffs_WhiteSpace_ScopeIndentSniff
+class PEAR_Sniffs_WhiteSpace_ScopeIndentSniff extends EpagesGeneric_Sniffs_WhiteSpace_ScopeIndentSniff
 {
 
     /**
