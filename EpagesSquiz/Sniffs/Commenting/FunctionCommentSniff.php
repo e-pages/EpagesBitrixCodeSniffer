@@ -13,8 +13,8 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('PEAR_Sniffs_Commenting_FunctionCommentSniff', true) === false) {
-    throw new PHP_CodeSniffer_Exception('Class PEAR_Sniffs_Commenting_FunctionCommentSniff not found');
+if (class_exists('EpagesPEAR_Sniffs_Commenting_FunctionCommentSniff', true) === false) {
+    throw new PHP_CodeSniffer_Exception('Class EpagesPEAR_Sniffs_Commenting_FunctionCommentSniff not found');
 }
 
 /**
@@ -46,7 +46,7 @@ if (class_exists('PEAR_Sniffs_Commenting_FunctionCommentSniff', true) === false)
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesSquiz_Sniffs_Commenting_FunctionCommentSniff extends PEAR_Sniffs_Commenting_FunctionCommentSniff
+class EpagesSquiz_Sniffs_Commenting_FunctionCommentSniff extends EpagesPEAR_Sniffs_Commenting_FunctionCommentSniff
 {
 
 

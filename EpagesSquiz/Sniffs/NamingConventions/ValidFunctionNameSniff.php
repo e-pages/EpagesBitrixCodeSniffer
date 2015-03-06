@@ -13,8 +13,8 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff', true) === false) {
-    throw new PHP_CodeSniffer_Exception('Class PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff not found');
+if (class_exists('EpagesPEAR_Sniffs_NamingConventions_ValidFunctionNameSniff', true) === false) {
+    throw new PHP_CodeSniffer_Exception('Class EpagesPEAR_Sniffs_NamingConventions_ValidFunctionNameSniff not found');
 }
 
 /**
@@ -32,7 +32,7 @@ if (class_exists('PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff', true) =
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesSquiz_Sniffs_NamingConventions_ValidFunctionNameSniff extends PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff
+class EpagesSquiz_Sniffs_NamingConventions_ValidFunctionNameSniff extends EpagesPEAR_Sniffs_NamingConventions_ValidFunctionNameSniff
 {
 
 

@@ -7,11 +7,11 @@
  <rule ref="EpagesGeneric.Functions.OpeningFunctionBraceBsdAllman"/>
  <rule ref="EpagesGeneric.PHP.DisallowShortOpenTag"/>
  <rule ref="EpagesGeneric.WhiteSpace.DisallowTabIndent"/>
- <rule ref="PEAR.Classes.ClassDeclaration"/>
- <rule ref="PEAR.ControlStructures.ControlSignature"/>
- <rule ref="PEAR.Functions.FunctionCallSignature"/>
- <rule ref="PEAR.Functions.ValidDefaultValue"/>
- <rule ref="PEAR.WhiteSpace.ScopeClosingBrace"/>
+ <rule ref="EpagesPEAR.Classes.ClassDeclaration"/>
+ <rule ref="EpagesPEAR.ControlStructures.ControlSignature"/>
+ <rule ref="EpagesPEAR.Functions.FunctionCallSignature"/>
+ <rule ref="EpagesPEAR.Functions.ValidDefaultValue"/>
+ <rule ref="EpagesPEAR.WhiteSpace.ScopeClosingBrace"/>
  <rule ref="EpagesSquiz.Functions.GlobalFunction"/>
 
  <!-- Lines can be 80 chars long, show errors at 120 chars -->

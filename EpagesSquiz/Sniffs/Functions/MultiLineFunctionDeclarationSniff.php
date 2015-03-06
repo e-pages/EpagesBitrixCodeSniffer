@@ -12,8 +12,8 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('PEAR_Sniffs_Functions_FunctionDeclarationSniff', true) === false) {
-    $error = 'Class PEAR_Sniffs_Functions_FunctionDeclarationSniff not found';
+if (class_exists('EpagesPEAR_Sniffs_Functions_FunctionDeclarationSniff', true) === false) {
+    $error = 'Class EpagesPEAR_Sniffs_Functions_FunctionDeclarationSniff not found';
     throw new PHP_CodeSniffer_Exception($error);
 }
 
@@ -30,7 +30,7 @@ if (class_exists('PEAR_Sniffs_Functions_FunctionDeclarationSniff', true) === fal
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesSquiz_Sniffs_Functions_MultiLineFunctionDeclarationSniff extends PEAR_Sniffs_Functions_FunctionDeclarationSniff
+class EpagesSquiz_Sniffs_Functions_MultiLineFunctionDeclarationSniff extends EpagesPEAR_Sniffs_Functions_FunctionDeclarationSniff
 {
 
 

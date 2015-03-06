@@ -23,7 +23,7 @@
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesBitrix_Sniffs_Methods_FunctionCallSignatureSniff extends PEAR_Sniffs_Functions_FunctionCallSignatureSniff
+class EpagesBitrix_Sniffs_Methods_FunctionCallSignatureSniff extends EpagesPEAR_Sniffs_Functions_FunctionCallSignatureSniff
 {
 
     /**

@@ -12,8 +12,8 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-if (class_exists('PEAR_Sniffs_Classes_ClassDeclarationSniff', true) === false) {
-    $error = 'Class PEAR_Sniffs_Classes_ClassDeclarationSniff not found';
+if (class_exists('EpagesPEAR_Sniffs_Classes_ClassDeclarationSniff', true) === false) {
+    $error = 'Class EpagesPEAR_Sniffs_Classes_ClassDeclarationSniff not found';
     throw new PHP_CodeSniffer_Exception($error);
 }
 
@@ -30,7 +30,7 @@ if (class_exists('PEAR_Sniffs_Classes_ClassDeclarationSniff', true) === false) {
  * @version   Release: 2.1.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class EpagesBitrix_Sniffs_Classes_ClassDeclarationSniff extends PEAR_Sniffs_Classes_ClassDeclarationSniff
+class EpagesBitrix_Sniffs_Classes_ClassDeclarationSniff extends EpagesPEAR_Sniffs_Classes_ClassDeclarationSniff
 {
 
 

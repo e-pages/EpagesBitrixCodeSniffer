@@ -4,7 +4,7 @@
  <exclude-pattern>*/Tests/*</exclude-pattern>
 
  <!-- Include the whole PEAR standard -->
- <rule ref="PEAR"/>
+ <rule ref="EpagesPEAR"/>
 
  <!-- Include some sniffs from other standards that don't conflict with PEAR -->
  <rule ref="EpagesSquiz.Arrays.ArrayBracketSpacing" />
@@ -33,7 +33,7 @@
  <rule ref="EpagesZend.Files.ClosingTag"/>
 
  <!-- Only one argument per line in multi-line function calls -->
- <rule ref="PEAR.Functions.FunctionCallSignature">
+ <rule ref="EpagesPEAR.Functions.FunctionCallSignature">
   <properties>
    <property name="allowMultipleArguments" value="false"/>
   </properties>
