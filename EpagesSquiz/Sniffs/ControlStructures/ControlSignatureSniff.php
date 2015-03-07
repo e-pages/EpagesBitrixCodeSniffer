@@ -123,8 +123,9 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
             $closer  = $tokens[$stackPtr]['parenthesis_closer'];
             $opener  = $tokens[$stackPtr]['scope_opener'];
             $content = $phpcsFile->getTokensAsString(($closer + 1), ($opener - $closer - 1));
+            $charAfterClosingParenthesis = $phpcsFile->getTokensAsString(($opener), 1);
 
-            if (substr($content, 0, 1) !== PHP_EOL) {
+            if (substr($content, 0, 1) !== PHP_EOL && $charAfterClosingParenthesis !== ":") {
                 $error = 'Expected end of line after closing parenthesis; found "%s"';
                 $data  = array(str_replace($phpcsFile->eolChar, '\n', $content));
                 $fix   = $phpcsFile->addFixableError($error, $closer, 'SpaceAfterCloseParenthesis', $data);
@@ -156,7 +157,8 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
             $opener = $tokens[$stackPtr]['scope_opener'];
             $next   = $phpcsFile->findNext(T_WHITESPACE, ($opener + 1), null, true);
             $found  = ($tokens[$next]['line'] - $tokens[$opener]['line']);
-            if ($found !== 1) {
+
+            if ($found !== 1 && $tokens[$opener]["type"] !== "T_COLON") {
                 $error = 'Expected 1 newline after opening brace; %s found';
                 $data  = array($found);
                 $fix   = $phpcsFile->addFixableError($error, $opener, 'NewlineAfterOpenBrace', $data);

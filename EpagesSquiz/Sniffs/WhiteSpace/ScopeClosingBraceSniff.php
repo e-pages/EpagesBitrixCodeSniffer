@@ -42,6 +42,17 @@ class EpagesSquiz_Sniffs_WhiteSpace_ScopeClosingBraceSniff implements PHP_CodeSn
 
     }//end register()
 
+    public function getEndsStructuresCodes()
+    {
+        return array(
+            "T_ENDWHILE",
+            "T_ENDFOR",
+            "T_ENDIF",
+            "T_ELSE",
+            "T_ENDFOREACH",
+        );
+    }
+
 
     /**
      * Processes this test, when one of its tokens is encountered.
@@ -83,7 +94,9 @@ class EpagesSquiz_Sniffs_WhiteSpace_ScopeClosingBraceSniff implements PHP_CodeSn
 
         // Check that the closing brace is on it's own line.
         $lastContent = $phpcsFile->findPrevious(array(T_WHITESPACE), ($scopeEnd - 1), $scopeStart, true);
-        if ($tokens[$lastContent]['line'] === $tokens[$scopeEnd]['line']) {
+
+        if ($tokens[$lastContent]['line'] === $tokens[$scopeEnd]['line']
+            && $tokens[$lastContent]["content"] !== "<?") {
             $error = 'Closing brace must be on a line by itself';
             $fix   = $phpcsFile->addFixableError($error, $scopeEnd, 'ContentBefore');
             if ($fix === true) {
@@ -95,9 +108,11 @@ class EpagesSquiz_Sniffs_WhiteSpace_ScopeClosingBraceSniff implements PHP_CodeSn
 
         // Check now that the closing brace is lined up correctly.
         $braceIndent = $tokens[$scopeEnd]['column'];
+        var_dump($tokens[$scopeEnd]);
         if ($tokens[$stackPtr]['code'] !== T_DEFAULT
             && $tokens[$stackPtr]['code'] !== T_CASE
             && $braceIndent !== $startColumn
+            && !in_array($tokens[$scopeEnd]["type"], $this->getEndsStructuresCodes())
         ) {
             $error = 'Closing brace indented incorrectly; expected %s spaces, found %s';
             $data  = array(

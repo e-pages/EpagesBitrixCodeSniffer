@@ -389,7 +389,7 @@ class EpagesPEAR_Sniffs_Functions_FunctionCallSignatureSniff implements PHP_Code
                     $foundIndent = strlen($tokens[$i]['content']);
                 }
 
-                if ($foundIndent < $expectedIndent
+                /*if ($foundIndent < $expectedIndent
                     || ($exact === true
                     && $expectedIndent !== $foundIndent)
                 ) {
@@ -413,7 +413,7 @@ class EpagesPEAR_Sniffs_Functions_FunctionCallSignatureSniff implements PHP_Code
                             }
                         }
                     }
-                }//end if
+                }//end if*/
             }//end if
 
             // Turn off exact indent matching for some structures that typically

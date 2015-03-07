@@ -219,7 +219,6 @@ class EpagesSquiz_Sniffs_WhiteSpace_SuperfluousWhitespaceSniff implements PHP_Co
             } else if ($tokens[($stackPtr - 1)]['content'] !== false && $tokens[($stackPtr - 1)]['content'] !== rtrim($tokens[($stackPtr - 1)]['content'])
                 && $tokens[($stackPtr - 1)]['line'] === $tokens[$stackPtr]['line']
             ) {
-                var_dump($tokens[($stackPtr - 1)]);
                 $fix = $phpcsFile->addFixableError('Whitespace found at end of line', ($stackPtr - 1), 'EndLine');
                 if ($fix === true) {
                     $phpcsFile->fixer->replaceToken($stackPtr - 1, rtrim($tokens[($stackPtr - 1)]['content']));
