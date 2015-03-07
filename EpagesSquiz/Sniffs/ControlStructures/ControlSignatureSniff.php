@@ -58,6 +58,21 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
 
     }//end register()
 
+    public function getStructuresCodes()
+    {
+        return array(
+            "T_TRY",
+            "T_CATCH",
+            "T_DO",
+            "T_WHILE",
+            "T_FOR",
+            "T_IF",
+            "T_FOREACH",
+            "T_ELSE",
+            "T_ELSEIF"
+        );
+    }
+
 
     /**
      * Processes this test, when one of its tokens is encountered.
@@ -84,12 +99,7 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
             }
         }
 //var_dump($tokens[$stackPtr]["type"]);
-        if ($found !== "newline"
-            && $tokens[$stackPtr]["type"] !== "T_IF"
-            && $tokens[$stackPtr]["type"] !== "T_WHILE"
-            && $tokens[$stackPtr]["type"] !== "T_FOREACH"
-            && $tokens[$stackPtr]["type"] !== "T_ELSEIF"
-        ) {
+        if ($found !== "newline" && !in_array($tokens[$stackPtr]["type"], $this->getStructuresCodes())) {
             $error = 'Expected new line after %s keyword; %s found';
             $data  = array(
                       strtoupper($tokens[$stackPtr]['content']),
