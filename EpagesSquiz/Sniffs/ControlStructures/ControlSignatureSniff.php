@@ -125,7 +125,7 @@ class EpagesSquiz_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_
             $content = $phpcsFile->getTokensAsString(($closer + 1), ($opener - $closer - 1));
             $charAfterClosingParenthesis = $phpcsFile->getTokensAsString(($opener), 1);
 
-            if (substr($content, 0, 1) !== PHP_EOL && $charAfterClosingParenthesis !== ":") {
+            if (substr($content, 0, 1) !== "\n" && $charAfterClosingParenthesis !== ":") {
                 $error = 'Expected end of line after closing parenthesis; found "%s"';
                 $data  = array(str_replace($phpcsFile->eolChar, '\n', $content));
                 $fix   = $phpcsFile->addFixableError($error, $closer, 'SpaceAfterCloseParenthesis', $data);
